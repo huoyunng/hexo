@@ -64,6 +64,12 @@ $ hexo new "Hello Hexo"
 $ hexo generate
 ```
 
+**Deploy code to Repo**
+
+``` bash
+$ hexo deploy
+```
+
 ## More Information
 
 - Read the [documentation](https://hexo.io/)

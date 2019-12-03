@@ -45,6 +45,7 @@
     "chalk": "^3.0.0",
     "cheerio": "0.22.0",
     "hexo-cli": "^3.0.0",
+    "hexo-deployer-git": "^2.1.0",
     "hexo-front-matter": "^1.0.0",
     "hexo-fs": "^2.0.0",
     "hexo-i18n": "^1.0.0",
