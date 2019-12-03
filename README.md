@@ -64,7 +64,7 @@ $ hexo new "Hello Hexo"
 $ hexo generate
 ```
 
-**Deploy code to Repo**
+**Deploy to remote sites**
 
 ``` bash
 $ hexo deploy

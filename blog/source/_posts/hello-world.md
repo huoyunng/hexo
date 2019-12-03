@@ -36,3 +36,17 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+### Watch for File Changes
+
+``` bash
+$ hexo generate --watch
+```
+
+### Deploy After Generating
+```bash
+$ hexo generate --deploy
+$ hexo deploy --generate
+```
+
+More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
