@@ -7,13 +7,49 @@ Welcome to Hexo
 
 ## Quick Start
 
+### mkdir blog
+
+```bash
+# 创建博客文件目录
+$ mkdir blog
+
+# 进入博客目录
+$ cd blog
+
+# 在blog内 进行Hexo框架初始化
+$ hexo init
+
+# 安装依赖包
+$ cnpm install
+```
+
+### Run server
+
+``` bash
+$ hexo server
+```
+
 ### Create a new post
 
 ```bash
 $ hexo new "this is my first post"
 ```
 
-### 提示: 可以用 hexo help查看hexo的常用命令
+### Generate static files
+
+``` bash
+$ hexo generate
+```
+
+More info: [Generating](https://hexo.io/docs/generating.html)
+
+### Deploy to remote sites
+
+``` bash
+$ hexo deploy
+```
+
+##### 提示: 可以用 hexo help查看hexo的常用命令
 ```bash
 $ hexo --help
 Usage: hexo <command>

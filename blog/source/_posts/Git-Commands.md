@@ -239,6 +239,19 @@ git@git.dev.tencent.com:wzw/leave-a-message.git
 
 - 登录 [Coding.net](https://dev.tencent.com/user/account/setting/keys) / [Github](https://github.com/settings/keys)，进入『SSH 公钥』页面，点击『新增公钥』
 
+- 本地和github的ssh配置是否正确
+
+```bash
+$ ssh -T git@github.com
+
+如果你看到了一句提示信息:
+Hi (你的注册用户名)! You've successfully authenticated, but GitHub does not provide shell access.
+那么说明已经配置好了github远程仓库与本地。
+
+# coding用以下命令[coding.net 整合归腾讯了]
+ssh -T git@git.dev.tencent.com
+```
+
 ---
 
 ###### 相关问题
